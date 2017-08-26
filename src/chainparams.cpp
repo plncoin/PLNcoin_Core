@@ -71,10 +71,10 @@ public:
     CMainParams() {
         strNetworkID = "main";
         consensus.nSubsidyHalvingInterval = 438000;
-        //consensus.BIP34Height = 710000;
-        //consensus.BIP34Hash = uint256S("fa09d204a83a768ed5a7c8d441fa62f2043abf420cff1226c7b4329aeb9d51cf");
-        //consensus.BIP65Height = 918684; // bab3041e8977e0dc3eeff63fe707b92bde1dd449d8efafb248c27c8264cc311a
-        //consensus.BIP66Height = 811879; // 7aceee012833fa8952f8835d8b1b3ae233cd6ab08fdb27a771d2bd7bdc491894
+        consensus.BIP34Height = 881601 ;
+        consensus.BIP34Hash = uint256S("7f319c1f6314817ee7aca25e3d16aaa9c0553486ff0327e22068668ec4bee4e1");
+        consensus.BIP65Height = 920000; // obowiązkowa wersja bloku 4 - jszcze nie ma! ustawiam w przyszłość
+        consensus.BIP66Height = 920000; // obowiązkowa wersja bloku 3 - jw bo obecnie kopią też v2
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
         consensus.nPowTargetTimespan = 4 * 60 * 60;
         consensus.nPowTargetSpacing = 60;
@@ -114,7 +114,7 @@ public:
         nDefaultPort = 9334; //done
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1317972665, 2084524493, 0x1e0ffff0, 1, 44 * COIN); //todo
+        genesis = CreateGenesisBlock(1394716143, 949591, 0x1e0ffff0, 1, 44 * COIN); //todo
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x58c63157cc65022e582ebf3b192fa43b9ba8558eeb26954706d8d3c6924853e5"));//ok
         assert(genesis.hashMerkleRoot == uint256S("0xf6513239070801245a6707a88beea6dfaf818cf6e48c4375c3b9ef2f31f2235f"));//ok
