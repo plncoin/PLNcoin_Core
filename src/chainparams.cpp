@@ -120,10 +120,14 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0xf6513239070801245a6707a88beea6dfaf818cf6e48c4375c3b9ef2f31f2235f"));//ok
 
         // Note that of those with the service bits flag, most only support a subset of possible options
+        vSeeds.push_back(CDNSSeedData("seed.plncoin.org", "seed.plncoin.org"));
+        vSeeds.push_back(CDNSSeedData("seed1.plncoin.org", "seed1.plncoin.org"));
+        vSeeds.push_back(CDNSSeedData("seed2.plncoin.org", "seed2.plncoin.org"));
+        vSeeds.push_back(CDNSSeedData("seed3.plncoin.org", "seed3.plncoin.org"));
+        vSeeds.push_back(CDNSSeedData("seed4.plncoin.org", "seed4.plncoin.org"));
         vSeeds.push_back(CDNSSeedData("plncoin.org", "plncoin.org", true));//done
         vSeeds.push_back(CDNSSeedData("seed.plncoin.org", "seed.plncoin.org", true));
         vSeeds.push_back(CDNSSeedData("plncoin.org", "plncoin.org"));
-        vSeeds.push_back(CDNSSeedData("seed.plncoin.org", "seed.plncoin.org"));
         vSeeds.push_back(CDNSSeedData("rav3n.dtdns.net", "rav3n.dtdns.net"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,22);
