@@ -20,7 +20,7 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Litecoin"
-            VALUE "FileDescription",    PACKAGE_NAME " (GUI node for Litecoin)"
+            VALUE "FileDescription",    PACKAGE_NAME " (GUI node for PLNcoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "plncoin-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
