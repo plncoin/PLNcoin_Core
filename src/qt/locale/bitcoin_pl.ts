@@ -989,7 +989,7 @@
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Włącz funk&amp;cje kontoli monet</translation>
+        <translation>Włącz funk&amp;cje kontroli monet</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
