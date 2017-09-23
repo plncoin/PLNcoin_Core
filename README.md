@@ -1,7 +1,7 @@
 PLNcoin Core integration/staging tree
 =====================================
 
-https://plnccoin.org
+https://plncoin.org
 
 What is PLNcoin?
 ----------------
@@ -13,7 +13,7 @@ out collectively by the network. PLNcoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the PLNcoin Core software, see [https://plnccoin.org](https://plnccoin.org).
+the PLNcoin Core software, see [https://plncoin.org](https://plncoin.org).
 
 License
 -------
