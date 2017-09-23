@@ -506,7 +506,7 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/plncoin/plncoin>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/plncoin/PLNcoin_Core>";
     const std::string URL_WEBSITE = "<https://plncoin.org>";
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2014, COPYRIGHT_YEAR) + " ") + "\n" +
