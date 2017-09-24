@@ -13,7 +13,7 @@
     "args": ["-"],
     "input": "blanktxv2.hex",
     "output_cmp": "blanktxv2.hex",
-    "description": "Creates a blank transaction when nothing is piped into litecoin-tx"
+    "description": "Creates a blank transaction when nothing is piped into plncoin-tx"
   },
   { "exec": "./plncoin-tx",
     "args": ["-json","-create"],
@@ -24,7 +24,7 @@
     "args": ["-json","-"],
     "input": "blanktxv2.hex",
     "output_cmp": "blanktxv2.json",
-    "description": "Creates a blank transaction when nothing is piped into litecoin-tx (output in json)"
+    "description": "Creates a blank transaction when nothing is piped into plncoin-tx (output in json)"
   },
   { "exec": "./plncoin-tx",
     "args": ["-", "delin=1"],
