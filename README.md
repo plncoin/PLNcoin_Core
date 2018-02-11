@@ -2,6 +2,8 @@ PLNcoin Core integration/staging tree
 =====================================
 
 https://plncoin.org
+https://www.facebook.com/PLNcoin
+https://twitter.com/PLNcoin_org
 
 What is PLNcoin?
 ----------------
