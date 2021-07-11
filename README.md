@@ -1,3 +1,7 @@
+Czy 5 miesięcy? Czy rok?
+Czas pokaże ;)
+
+
 PLNcoin Core integration/staging tree
 =====================================
 
