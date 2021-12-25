@@ -1,8 +1,4 @@
-Czy 5 miesięcy? Czy rok?
-Czas pokaże ;)
-
-
-Pozdrawiam kanał głosowy ;)
+I jak?;)
 
 
 PLNcoin Core integration/staging tree
