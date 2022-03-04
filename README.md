@@ -1,4 +1,4 @@
-Pozdrawiam ;)
+Długo, prawda ?
 
 
 PLNcoin Core integration/staging tree
